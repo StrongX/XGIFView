@@ -15,6 +15,8 @@
 		2ABC9CDF1CAD7C1D00402386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABC9CDD1CAD7C1D00402386 /* LaunchScreen.storyboard */; };
 		2ABC9CEA1CAD7C1D00402386 /* XGIFViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC9CE91CAD7C1D00402386 /* XGIFViewTests.m */; };
 		2ABC9CF51CAD7C1D00402386 /* XGIFViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC9CF41CAD7C1D00402386 /* XGIFViewUITests.m */; };
+		2ACD1F911CB0360C00EF8F01 /* gifDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2ACD1F901CB0360C00EF8F01 /* gifDemo.gif */; };
+		2ACD1F941CB03D9100EF8F01 /* XGIFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD1F931CB03D9100EF8F01 /* XGIFView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		2ABC9CF01CAD7C1D00402386 /* XGIFViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XGIFViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABC9CF41CAD7C1D00402386 /* XGIFViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XGIFViewUITests.m; sourceTree = "<group>"; };
 		2ABC9CF61CAD7C1D00402386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACD1F901CB0360C00EF8F01 /* gifDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifDemo.gif; sourceTree = "<group>"; };
+		2ACD1F921CB03D9100EF8F01 /* XGIFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XGIFView.h; path = XGIFView/XGIFView.h; sourceTree = "<group>"; };
+		2ACD1F931CB03D9100EF8F01 /* XGIFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XGIFView.m; path = XGIFView/XGIFView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,8 @@
 		2ABC9CCE1CAD7C1D00402386 /* XGIFView */ = {
 			isa = PBXGroup;
 			children = (
+				2ACD1F901CB0360C00EF8F01 /* gifDemo.gif */,
+				2ABC9D021CAD7C2800402386 /* XGIFView */,
 				2ABC9CD21CAD7C1D00402386 /* AppDelegate.h */,
 				2ABC9CD31CAD7C1D00402386 /* AppDelegate.m */,
 				2ABC9CD51CAD7C1D00402386 /* ViewController.h */,
@@ -138,6 +145,15 @@
 				2ABC9CF61CAD7C1D00402386 /* Info.plist */,
 			);
 			path = XGIFViewUITests;
+			sourceTree = "<group>";
+		};
+		2ABC9D021CAD7C2800402386 /* XGIFView */ = {
+			isa = PBXGroup;
+			children = (
+				2ACD1F921CB03D9100EF8F01 /* XGIFView.h */,
+				2ACD1F931CB03D9100EF8F01 /* XGIFView.m */,
+			);
+			name = XGIFView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ABC9CDF1CAD7C1D00402386 /* LaunchScreen.storyboard in Resources */,
+				2ACD1F911CB0360C00EF8F01 /* gifDemo.gif in Resources */,
 				2ABC9CDC1CAD7C1D00402386 /* Assets.xcassets in Resources */,
 				2ABC9CDA1CAD7C1D00402386 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +289,7 @@
 			files = (
 				2ABC9CD71CAD7C1D00402386 /* ViewController.m in Sources */,
 				2ABC9CD41CAD7C1D00402386 /* AppDelegate.m in Sources */,
+				2ACD1F941CB03D9100EF8F01 /* XGIFView.m in Sources */,
 				2ABC9CD11CAD7C1D00402386 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +516,7 @@
 				2ABC9CFB1CAD7C1D00402386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ABC9CFC1CAD7C1D00402386 /* Build configuration list for PBXNativeTarget "XGIFViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				2ABC9CFE1CAD7C1D00402386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ABC9CFF1CAD7C1D00402386 /* Build configuration list for PBXNativeTarget "XGIFViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				2ABC9D011CAD7C1D00402386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
